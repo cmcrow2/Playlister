@@ -1,8 +1,11 @@
 The original plan for this project was to allow Spotify users to log in with their Spotify account. Users would be able create and edit playlists, with a lot more functionality than Spotify provides OOTB. Unfortunately, Spotify's Developer API and Dashboard are extremely volatile, with limited support from Spotify. This project had to subsequently be archived, but the tailwind styles and next.js layout learning experiences were invaluable.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Screenshot
+<img width="1726" alt="Screenshot 2024-01-04 at 12 46 33 PM" src="https://github.com/cmcrow2/Playlister/assets/22524985/ccc1720b-2f66-44f2-8d00-df03278e5731">
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
