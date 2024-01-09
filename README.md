@@ -1,3 +1,5 @@
+The original plan for this project was to allow Spotify users to log in with their Spotify account. Users would be able create and edit playlists, with a lot more functionality than Spotify provides OOTB. Unfortunately, Spotify's Developer API and Dashboard are extremely volatile, with limited support from Spotify. This project had to subsequently be archived, but the tailwind styles and next.js layout learning experiences were invaluable.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
