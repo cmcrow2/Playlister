@@ -1,12 +1,12 @@
 import Sidebar from "@/components/Sidebar";
 import type { Metadata } from "next";
-import { Ubuntu_Mono } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import SupabaseProvider from "@/providers/SupabaseProvider";
 import UserProvider from "@/providers/UserProvider";
 import ModalProvider from "@/providers/ModalProvider";
 
-const font = Ubuntu_Mono({
+const font = Montserrat({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-poppins",
@@ -14,8 +14,8 @@ const font = Ubuntu_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Playlister",
-  description: "Create and Edit Spotify Playlists",
+  title: "Animal Help Now",
+  description: "Your 24/7 resource for wildlife emergencies and conflicts",
 };
 
 export default function RootLayout({

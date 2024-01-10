@@ -22,25 +22,24 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
   };
 
   return (
-    <div className={twMerge("h-fit bg-stone-800 p-6", className)}>
+    <div className={twMerge("h-fit bg-stone-700 p-6", className)}>
       <div className="w-full md-4 flex items-center justify-between">
         <div className="hidden md:flex gap-x-2 items-center">
           <button
             onClick={() => router.back()}
             className="rounded-full bg-stone-900 flex items-center justify-center hover:bg-opacity-75 transition"
           >
-            <RxCaretLeft className="text-white hover:text-rose-300" size={35} />
+            <RxCaretLeft className="text-white hover:text-red-500" size={35} />
           </button>
           <button
             onClick={() => router.forward()}
             className="rounded-full bg-stone-900 flex items-center justify-center hover:bg-opacity-75 transition"
           >
-            <RxCaretRight
-              className="text-white hover:text-rose-300"
-              size={35}
-            />
+            <RxCaretRight className="text-white hover:text-red-500" size={35} />
           </button>
-          <h1 className="text-white text-3xl font-semibold pl-2">Playlister</h1>
+          <h1 className="text-stone-200 text-3xl font-semibold pl-2">
+            ANIMAL HELP NOW
+          </h1>
         </div>
         <div className="flex md:hidden gap-x-2 items-center">
           <button className="rounded-full p-2 bg-white flex items-center justify-center hover:opacity-75 transition">
@@ -57,7 +56,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
                 onClick={authModal.onOpen}
                 className="bg-transparent text-stone-300 font-medium"
               >
-                Sign Up
+                Get Listed!
               </Button>
             </div>
             <div>
@@ -65,7 +64,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
                 onClick={authModal.onOpen}
                 className="bg-transparent text-stone-300 font-medium"
               >
-                Log In
+                Helper Login
               </Button>
             </div>
           </>
